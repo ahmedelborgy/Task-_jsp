@@ -1,0 +1,266 @@
+/* You can add global styles to this file, and also import other style files */
+/* Reset Style */
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+
+/* Global Style  */
+/*
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    transition: 0.5s all;
+    position: relative;
+    overflow-x: hidden;
+}
+
+:root {
+    --main-color: #1c8e8f;
+    --second-color: #ff6600;
+    --bg-color: #f3f5fa;
+}
+
+.t-m-color {
+    color: var(--main-color);
+}
+
+.fst-italic {
+    font-style: italic !important;
+}
+
+.btn {
+    font-size: 16px;
+    background: #ff6600;
+    border: 0;
+    padding: 15px 34px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+p {
+    color: #444444;
+}
+
+strong {
+    color: var(--second-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+ul li {
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+    font-family: "Jost", sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.f-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.m-top-bottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.p-60 {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.titel {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.titel h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #008081e3;
+}
+
+.titel h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    position: absolute;
+    bottom: 1px;
+    left: calc(50% - 60px);
+    display: block;
+}
+
+.titel h2::after {
+    content: "";
+    width: 40px;
+    height: 3px;
+    background: #ff6600;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+*/
+
+/* Custom Style */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  /* Reset Style */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+body{
+   font-family: 'Poppins', sans-serif !important;
+
+    font-size: 16px;
+    line-height: 1.5;
+    /* font-weight: 400; */
+    transition: 0.5s all;
+    position: relative;
+    overflow-x: hidden;
+}
+/* mai varibles style */
+:root {
+    --main-color:#5180F6;
+    --second-color:#CEDCFF;
+     --text-color:#6D91EE;
+   
+}
+/* main class */
+.t-m-color {
+    color: var(--text-color);
+}
+.bg-m-color{
+background-color:var(--main-color);
+}
+.t-color{
+    color: var(--text-color);
+}
+
+.d-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* button style */
+.btnSec{
+ width: 280px;
+height: 86px;
+border-radius: 71px;
+border: none;
+}
+/* ------------------- */
+
+/* titel style */
+
+
+.titel{
+    width: 321px;
+    position: relative;
+    padding: 10px;
+   }
+   
+   .headTitel{
+   color: #6D91EE;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 64px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 89.5px; 
+   /* position: relative; */
+   }
+
+
+.line{
+    width: 45.25px; 
+    height: 0px;
+    position: absolute;
+    border: 1.5px #6D91EE solid;
+    transform-origin: 0 0;
+}
+.line-A {
+ 
+    left: 18.5em;
+    top: 0px; 
+    transform: rotate(45deg);  
+    
+}
+.line-B{
+    
+    left: 2em;
+     top: 0px; 
+    
+     transform: rotate(135deg);
+}
+.line-C{
+    left:18.5em; 
+    bottom: 0px; 
+   border-style: red !important;
+     transform: rotate(-45deg);
+
+}
+.line-D{
+    left: 2em;
+    bottom: 0;
+    
+    transform: rotate(-135deg); 
+}

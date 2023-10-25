@@ -1,0 +1,81 @@
+.testm{
+    flex-direction: column;
+    /* background-color: aquamarine; */
+}
+/* <!-- testmoinales  titeal --> */
+
+.titelTestm {
+    width: 496px;
+    /* background-color: brown; */
+}
+
+.testm .line-A{
+
+    left:94%;
+    top: 0px; 
+   
+    
+}
+.testm .line-C{
+    left:94%; 
+    bottom: 0px; 
+  
+
+}
+
+/*  <!-- testmoinales  cards--> */
+
+.testmCard{
+border-radius: 40px;
+border: 1px solid #6D91EE;
+background-color: #FFF;
+}
+
+
+.testmCard h6{
+color: #6D91EE;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 122.222% */
+}
+
+.testmCard p{
+color: #22366A;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; 
+}
+.ellips{
+    width: 80px;
+    height: 80px;
+    
+}
+.ellips img{
+width: 100%;
+border-radius: 50%;
+/* margin-bottom: 1rem; */
+margin-left: 2rem;
+}
+.icon svg{
+    padding:2px;
+    
+    
+}
+
+
+@media screen and (max-width: 578px) {
+    .titelTestm  {
+        width: 450px;
+}
+
+.testmCard .row{
+  
+   text-align: center;
+    }
+    
+
+    
+}

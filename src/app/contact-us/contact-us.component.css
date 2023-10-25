@@ -1,0 +1,87 @@
+/* <!-- testmoinales  titeal --> */
+.contact{
+flex-direction: column;
+}
+.titelContact {
+    width: 496px;
+   
+}
+
+.contact .line-A{
+
+    left:94%;
+    top: 0px; 
+   
+    
+}
+.contact .line-C{
+    left:94%; 
+    bottom: 0px; 
+  
+
+}
+/* register */
+.register{
+    /* background-color: #5180F6; */
+    width: 50%;
+}
+
+.contact form{
+    flex-direction: column;
+}
+/* contanct us form */
+.inputStyle{
+    border: none;
+    border-radius: 61px;
+    background-color: #CEDCFF;
+    /* width: 374px;
+     */
+     width: 100% !important;
+    height: 56px;
+}
+input::placeholder{
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+left: 2rem;
+
+}
+.send{
+border-radius: 61px;
+border: 3px solid #5180F6;
+padding: 10px 50px;
+/* margin: auto; */
+
+}
+.contactLinks a{
+color: var(--Gray-1, #333);
+font-family: Abel;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+
+}
+.contactLinks svg{
+    margin: 10px;
+
+}
+.contact small{
+    width: 100%;
+}
+@media screen and (max-width: 578px) {
+    .titelContact {
+        width: 400px;
+        /* background-color:tan; */
+    }
+    .register{
+        /* background-color: #5180F6; */
+        width: 100%;
+    }
+    
+}

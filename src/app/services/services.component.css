@@ -1,0 +1,51 @@
+.servSec{
+    /* background-color: antiquewhite; */
+    justify-content: center ;
+    align-items: space-between;
+    flex-direction: column;
+
+}
+/* headr service */
+
+
+
+
+/* servies card */
+.servCard .card{
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(16, 51, 30, 0.10);
+    position: relative;
+    z-index: 5;
+}
+.servCard img{
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+.servCard h4{
+color: #324473;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 24px; /* 150% */
+}
+.servCard p{
+    color: #324473;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+.cardImg{
+ height: 238px !important;
+
+}
+
+@media screen and (max-width: 578px) {
+    
+    
+
+    
+}
